@@ -18,10 +18,10 @@
         <input type="reset" value="Start Over">
     </form>
 <?php
-$host = "hu-skate-club:northamerica-northeast1:husk8teclub:3306";
+$host = "hu-skate-club:northamerica-northeast1:husk8teclub";
     $username = "root";
     $password = "bmsql2703";
-    $dbname = "skateclubbackup3.sql";
+    $dbname = "skateclub";
 // database connection code
                 // $con = mysqli_connect('huskateclub connection name', 'database_user', 'database_password','database');
 $con = mysqli_connect($host, $username, $password, $dbname);
