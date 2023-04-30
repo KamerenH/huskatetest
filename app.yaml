@@ -28,5 +28,5 @@ env_variables:
 #
 # entrypoint: serve index.php
 
-- url: .*
-  script: auto
+url: .*
+script: auto
