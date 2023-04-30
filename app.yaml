@@ -1,4 +1,3 @@
-
 # Defaults to "serve index.php" and "serve public/index.php". Can be used to
 # serve a custom PHP front controller (e.g. "serve backend/index.php") or to
 # run a long-running PHP script as a worker process (e.g. "php worker.php").
@@ -8,5 +7,6 @@
 runtime: php82 # Replace with php74 to use PHP 7.4
 
 # Serve your app through a front controller at index.php or public/index.php.
+handlers:
 - url: .*
   script: auto
