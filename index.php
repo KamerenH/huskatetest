@@ -21,7 +21,7 @@
 $host = "hu-skate-club:northamerica-northeast1:husk8teclub:3306";
     $username = "root";
     $password = "bmsql2703";
-    $dbname = "skateclub";
+    $dbname = "skateclubbackup3.sql";
 // database connection code
                 // $con = mysqli_connect('huskateclub connection name', 'database_user', 'database_password','database');
 $con = mysqli_connect($host, $username, $password, $dbname);
