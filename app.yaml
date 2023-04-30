@@ -1,5 +1,3 @@
-
-
 # Copyright 2020 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,7 +17,6 @@ runtime: php74
 # Remember - storing secrets in plaintext is potentially unsafe. Consider using
 # something like https://cloud.google.com/secret-manager/ to help keep secrets secret.
 env_variables:
-#hu-skate-club:northamerica-northeast1:husk8teclub
   INSTANCE_UNIX_SOCKET: /cloudsql/hu-skate-club:northamerica-northeast1:husk8teclub
   DB_USER: root
   DB_PASS: bmsql2703
