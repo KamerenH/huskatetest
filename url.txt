@@ -1,0 +1,5 @@
+# huskatetest
+Website URL
+https://hu-skate-club.nn.r.appspot.com/
+
+#unfortunately still unable to sucessfully connect to SQL Database
